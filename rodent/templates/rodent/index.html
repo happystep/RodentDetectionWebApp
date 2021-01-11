@@ -1,6 +1,15 @@
+{% extends 'rodent/base.html' %}
+{% load static %}
+
+{% block 'body' %}
 <html>
+    <head>
+        <link rel="shortcut icon" href="{% static 'favicon.ico' %}" />
+    </head>
 <body>
     <p>Hi there!</p>
     <p>It works!</p>
 </body>
 </html>
+
+{% endblock %}
